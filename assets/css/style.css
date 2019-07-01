@@ -1,4 +1,6 @@
-
+body{
+    background-image: url("../images/stripes-light.png");
+}
 .hasBorder{
     border: 2px solid black;
     text-align: center;
@@ -38,4 +40,8 @@
     float: right;
     width: 20%;
     height: 100px;
+}
+
+input{
+    text-align: center;
 }
