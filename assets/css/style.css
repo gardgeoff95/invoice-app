@@ -32,7 +32,8 @@ body{
 }
 #quote{
     margin-top: 20px;
-    height: 200px;
+    text-align: left;
+ 
 }
 
 #finalPricing{
@@ -44,4 +45,15 @@ body{
 
 input{
     text-align: center;
+}
+#addRow{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#addRow:hover{
+    background-color: rgb(165, 161, 161);
 }
