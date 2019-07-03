@@ -1,6 +1,9 @@
 body{
     background-image: url("../images/stripes-light.png");
 }
+h4{
+    border-bottom: 1px solid grey;
+}
 .hasBorder{
     border: 2px solid black;
     text-align: center;
@@ -23,8 +26,12 @@ body{
     width: 100%;
     float: right;
 }
-#customer{
-    height: 150px;
+#customerInfo{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+   
 }
 #dates{
     width: 100%;
