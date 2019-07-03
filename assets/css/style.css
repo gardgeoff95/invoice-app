@@ -1,5 +1,6 @@
 body{
-    background-image: url("../images/stripes-light.png");
+    background-image: url("../images/white-waves.png");
+    
 }
 h4{
     border-bottom: 1px solid grey;
@@ -12,30 +13,35 @@ h4{
 
 #info{
     margin-top: 40px;
+    font-family: serif;
+
+
+
     
 
 }
 
-#status,
-#actions{
-    height: 60px;
+#customer{
+    height: 280px;
+
 }
 
 #dates{
     margin-top: 10px;
     width: 100%;
     float: right;
+
 }
 #customerInfo{
+    margin-top: 50px;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
 
    
 }
-#dates{
-    width: 100%;
-    height: 80px;
+#dateInfo{
+    text-align: left;
 }
 #quote{
     margin-top: 20px;
@@ -46,8 +52,21 @@ h4{
 #finalPricing{
     margin-top: 20px;
     float: right;
-    width: 20%;
-    height: 100px;
+    width: 30%;
+    font-size: 20px;
+
+
+}
+#pricingDiv{
+    text-align: left;
+    padding: 7px;
+
+}
+#pricingDiv > p{
+    border-bottom: 2px solid grey;
+}
+.priceNums{
+    float: right;
 }
 
 input{
@@ -60,7 +79,18 @@ input{
     width: 50px;
     border: 1px solid black;
     border-radius: 5px;
+    font-weight: 900;
 }
 #addRow:hover{
     background-color: rgb(165, 161, 161);
+}
+#actionSelect{
+    width: 150px;
+    font-size:20px;
+}
+button:focus {
+    outline: 0;
+}
+select:focus{
+    outline: 0;
 }
