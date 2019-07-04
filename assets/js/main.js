@@ -11,17 +11,17 @@ $(document).ready(function(){
 
             '</td><td>This is where the description would go</td>'+
 
-            '<td><input id="xSmall" size="4" placeholder="XS"></td>' +
+            '<td><input class="sizes" id="xSmall" type="number" size="4" placeholder="XS"></td>' +
 
-            '<td><input id="small" size="4" placeholder="S"></td>' +
+            '<td><input class="sizes" id="small" type="number" size="4" placeholder="S"></td>' +
 
-            '<td><input id="med" size="4" placeholder="M"></td>' +
+            '<td><input class="sizes" id="med" type="number" size="4" placeholder="M"></td>' +
 
-            '<td><input id="large" size="4" placeholder="L"></td>' +
+            '<td><input class="sizes" id="large" type="number" size="4" placeholder="L"></td>' +
 
-            '<td><input id="xLarge" size="4" placeholder="XL"></td>' +
+            '<td><input class="sizes" id="xLarge" type="number" size="4" placeholder="XL"></td>' +
 
-            '<td><input id="xxLarge" size="4" placeholder="XXL"></td>' +
+            '<td><input class="sizes" id="xxLarge" type="number" size="4" placeholder="XXL"></td>' +
 
             '<td><input disabled="disabled" size="4" placeholder="X"</td>' +
 

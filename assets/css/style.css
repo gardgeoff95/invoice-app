@@ -14,16 +14,10 @@ h4{
 #info{
     margin-top: 40px;
     font-family: serif;
-
-
-
-    
-
 }
 
 #customer{
     height: 280px;
-
 }
 
 #dates{
@@ -54,8 +48,6 @@ h4{
     float: right;
     width: 30%;
     font-size: 20px;
-
-
 }
 #pricingDiv{
     text-align: left;
@@ -88,9 +80,30 @@ input{
     width: 150px;
     font-size:20px;
 }
+
 button:focus {
     outline: 0;
 }
 select:focus{
     outline: 0;
+}
+input:focus{
+    outline: 0;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+table{
+    text-align: center;
+}
+#description{
+    text-align: left;
+}
+.sizes{
+    width: 50px;
 }
